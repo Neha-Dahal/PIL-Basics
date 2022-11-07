@@ -15,12 +15,19 @@ image_unsharp=image.filter(ImageFilter.UnsharpMask(radius=10))
 image_embossed=image.filter(ImageFilter.EMBOSS) 
 image_emboss_unsharp=image_embossed.filter(ImageFilter.UnsharpMask(radius=10))
 
+#save
+image_blur.save('Blurred.jpg')
+image_emboss.save('Embossed.jpg')
+image_boxblur.save('Boxblur.jpg')
+image_gaussblur.save('Gaussblur.jpg')
+image_unsharp.save('Unsharp.jpg')
+image_emboss_unsharp.save('EmbossAndUnsharp.jpg')
 
-#display
-image.show()
-image_blur.show()
-image_emboss.show()
-image_boxblur.show()
-image_gaussblur.show()
-image_unsharp.show()
-image_emboss_unsharp.show()
+# #display
+# image.show()
+# image_blur.show()
+# image_emboss.show()
+# image_boxblur.show()
+# image_gaussblur.show()
+# image_unsharp.show()
+# image_emboss_unsharp.show()
