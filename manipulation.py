@@ -17,9 +17,9 @@ image_flip_vertical=image.transpose(Image.FLIP_TOP_BOTTOM)
 # image_resize=image.resize(new_image_size)
 
 #save
-image_rotate.save('Rotated.jpg')
-image_flip_horizonatal.save('HorizontalFlip.jpg')
-image_flip_vertical.save('VerticalFlip.jpg')
+image_rotate.save('outputs/Rotated.jpg')
+image_flip_horizonatal.save('outputs/HorizontalFlip.jpg')
+image_flip_vertical.save('outputs/VerticalFlip.jpg')
 
 
 # #display

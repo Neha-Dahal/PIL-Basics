@@ -17,10 +17,10 @@ enhanced_image3=brightness_enhancer.enhance(2)
 enhanced_image4=sharpness_enhancer.enhance(50)
 
 #save
-enhanced_image.save('Vibrant.jpg')
-enhanced_image2.save('Contrast.jpg')
-enhanced_image3.save('Bright.jpg')
-enhanced_image4.save('Sharp.jpg')
+enhanced_image.save('outputs/Vibrant.jpg')
+enhanced_image2.save('outputs/Contrast.jpg')
+enhanced_image3.save('outputs/Bright.jpg')
+enhanced_image4.save('outputs/Sharp.jpg')
 
 
 # #display
